@@ -1,6 +1,6 @@
-# 🔧 Predictive Maintenance with Sensor Analytics
+#  Predictive Maintenance with Sensor Analytics
 
-## 📌 Overview
+##  Overview
 
 Predictive maintenance is critical in industrial environments to reduce unplanned downtime, cut costs, and enhance operational reliability. This project builds a machine learning model to predict machine failures using real-time sensor data, enabling proactive maintenance decisions.
 
@@ -8,7 +8,7 @@ Using features such as **Temperature**, **Vibration**, **Power Usage**, **Humidi
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 * **Features**:
 
@@ -21,7 +21,7 @@ Using features such as **Temperature**, **Vibration**, **Power Usage**, **Humidi
 
 ---
 
-## ⚙️ Preprocessing Steps
+##  Preprocessing Steps
 
 1. **Missing Values**: No missing values found.
 2. **Categorical Encoding**: Label Encoding for `Machine Type`.
@@ -32,7 +32,7 @@ Using features such as **Temperature**, **Vibration**, **Power Usage**, **Humidi
 
 ---
 
-## 🔍 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 * Generated heatmaps to explore feature correlations
 * Assessed distribution of target variable
@@ -40,14 +40,14 @@ Using features such as **Temperature**, **Vibration**, **Power Usage**, **Humidi
 
 ---
 
-## 🧐 Model Development
+##  Model Development
 
-### ✅ Chosen Model
+###  Chosen Model
 
 * **Random Forest Classifier**
 * Selected for its ability to model non-linear patterns and handle feature-rich datasets
 
-### 🔧 Hyperparameter Tuning
+###  Hyperparameter Tuning
 
 Used **GridSearchCV** to optimize:
 
@@ -59,7 +59,7 @@ Used **GridSearchCV** to optimize:
 
 ---
 
-## 📈 Model Performance
+##  Model Performance
 
 | Metric        | Score |
 | ------------- | ----- |
@@ -69,18 +69,18 @@ Used **GridSearchCV** to optimize:
 | F1-Score      | 0.73  |
 | ROC-AUC Score | 0.78  |
 
-> ✅ **High recall (78%)** ensures most failure cases are detected — crucial for early maintenance intervention.
+>  **High recall (78%)** ensures most failure cases are detected — crucial for early maintenance intervention.
 
 ---
 
-## 📊 Visualizations
+##  Visualizations
 
 * **Confusion Matrix**: Visualizes true vs predicted classifications
 * **ROC Curve**: Shows TPR vs FPR across thresholds, AUC = 0.78
 
 ---
 
-## ⚠️ Challenges
+##  Challenges
 
 * **Class Imbalance**: Required SMOTE to balance failure vs non-failure examples.
 * **Overfitting Risk**: Random Forest initially overfit; mitigated via tuning and cross-validation.
@@ -88,7 +88,7 @@ Used **GridSearchCV** to optimize:
 
 ---
 
-## 💡 Key Learnings
+##  Key Learnings
 
 * Ensemble models like Random Forest are effective in failure detection problems.
 * Proper preprocessing (scaling, balancing, encoding) significantly enhances model reliability.
@@ -96,7 +96,7 @@ Used **GridSearchCV** to optimize:
 
 ---
 
-## 🔭 Future Enhancements
+##  Future Enhancements
 
 * Try advanced models: **XGBoost**, **LightGBM**, or **Neural Networks**
 * Use **RandomizedSearchCV** for faster tuning on large parameter grids
@@ -106,7 +106,7 @@ Used **GridSearchCV** to optimize:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Requirements
 
